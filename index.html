@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iife sandwich maker</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Tell me what you want; I will tell you a Price!</h1>
+		<div id="orderForm">
+			<div id="bread" class="piece">
+				<h3>Choose your bread</h3>
+				<select id="breadOptions">
+					<optgroup>
+						<option value="none">none</option>
+						<option value="french">french bread</option>
+						<option value="white">white bread</option>
+						<option value="whole-grain">whole-grain bread</option>
+						<option value="kaiser-roll">kaiser-roll</option>
+					</optgroup>			
+				</select>
+			</div>
+			<div id="meatOptions" class="piece">
+				<h3>Choose your Meats</h3>
+				<ul>
+					<li><input type="checkbox" value="bacon">bacon</li>
+					<li><input type="checkbox" value="ham">ham</li>
+					<li><input type="checkbox" value="turkey">turkey</li>
+					<li><input type="checkbox" value="salami">salami</li>
+					<li><input type="checkbox" value="pepporoni">pepporoni</li>
+					<li><input type="checkbox" value="prosciutto">prosciutto</li>
+					<li><input type="checkbox" value="roasted-chicken">roasted-chicken</li>
+					<li><input type="checkbox" value="flank-steak">flank-steak</li>
+					<li><input type="checkbox" value="prime-rib">prime_rib</li>
+					<li><input type="checkbox" value="none">none</li>
+				</ul>
+			</div>
+
+			<div id="cheeseOptions" class="piece">
+				<h3>Choose your Cheese</h3>
+				<ul>
+					<li><input type="checkbox" value="american">american</li>
+					<li><input type="checkbox" value="cheddar">cheddar</li>
+					<li><input type="checkbox" value="swiss">swiss</li>
+					<li><input type="checkbox" value="provolone">provolone</li>
+					<li><input type="checkbox" value="pepper-jack">pepper-jack</li>
+					<li><input type="checkbox" value="none">none</li>
+				</ul>
+			</div>
+
+			<div id="condimentOptions" class="piece">
+				<h3>Choose your condiments</h3>
+				<ul>
+					<li><input type="checkbox" value="mayo">Mayo</li>
+					<li><input type="checkbox" value="mustard">Mustard</li>
+					<li><input type="checkbox" value="ketchup">Ketchup</li>
+					<li><input type="checkbox" value="ranch">Ranch</li>
+					<li><input type="checkbox" value="buffalo-sauce">Buffalo-Sauce</li>
+					<li><input type="checkbox" value="oil-vinegar">Oil-vinegar</li>
+					<li><input type="checkbox" value="balsamic-vinegaret">Balsamic-vinegarett</li>
+					<li><input type="checkbox" value="none">None</li>
+				</ul>
+			</div>
+
+			<div id="veggieOptions" class="piece">
+				<h3>Choose your Veggies</h3>
+				<ul>
+					<li><input type="checkbox" value="lettuce">Lettuce</li>
+					<li><input type="checkbox" value="spinach">Spinach</li>
+					<li><input type="checkbox" value="tomatoe">Tomatoe</li>
+					<li><input type="checkbox" value="pickles">Pickles</li>
+					<li><input type="checkbox" value="onions">Onions</li>
+					<li><input type="checkbox" value="hot-cherry-peppers">Hot-Cherry-Peppers</li>
+					<li><input type="checkbox" value="avocado">Avocado</li>
+					<li><input type="checkbox" value="bell-peppers">Bell-Peppers</li>
+					<li><input type="checkbox" value="none">None</li>
+				</ul>	
+			</div>
+
+			<div id="totalContainer">
+				<button id="submit">Total</button>
+				<ul id="monkey">
+					<li id="output1">Pre-Total:   $</li>
+					<li id="output2">Tax:   $</li>
+					<li id="output3">Final-Total:   $</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="javascripts/SandwichMaker.js"></script>
+	<script type="text/javascript" src="javascripts/meat.js"></script>
+	<script type="text/javascript" src="javascripts/veggies.js"></script>
+	<script type="text/javascript" src="javascripts/condiments.js"></script>
+	<script type="text/javascript" src="javascripts/cheese.js"></script>
+	<script type="text/javascript" src="javascripts/bread.js"></script>
+	<script type="text/javascript" src="javascripts/DOMhandler.js"></script>
+
+</html>

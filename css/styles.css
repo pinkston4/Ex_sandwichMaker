@@ -1,0 +1,55 @@
+h1 { 
+	text-align: center;
+ }
+
+body {
+	background: url(http://www.parikiaki.com/wp-content/uploads/lountza-sandwich.jpg);
+	background-size: cover;
+}
+
+li {
+	margin-left: -15px;
+}
+
+#orderForm {
+	margin: 10%;
+}
+
+#bread {
+	display: block;
+}
+
+#wrapper {
+	max-height: 100%;
+	margin: 10% 25%;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.piece {	
+	display: inline-block;
+	margin: 1px;
+	padding: 0 1px;
+	border-right:  1px solid black;
+	width: 23%;
+}
+
+#monkey {
+	display: inline-block;
+}
+
+#totalContainer {
+	text-align: center;
+}
+
+#bread {
+	margin: 0 37.5%;
+	text-align: center;
+	border: none;
+}
+
+#veggieOptions {
+	border: none;
+}
+
+
